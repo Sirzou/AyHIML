@@ -1,0 +1,333 @@
+#include "Punto.h"
+#include "bibliotecas.h"
+#include "genera.h"
+#include "util.h"
+//#include <random>
+//#include <chrono>
+long long int nf[16]={1,1,2,6,
+24,120,720,5040,40320,362880,
+3628800,39916800,479001600,
+6227020800,87178291200,
+1307674368000};
+//Funciones utileria que se pueden ocupar en los modulos.
+int longitudMinima;
+int contador;
+int respuesta[1001];
+int x;
+
+//Algoritmo Exacto
+//GenPerm(n, T): Recibe dos enteros n y T. Genera la permutacion numero T
+//de las n! permutaciones de los enteros del 1 al n en forma de vector s.
+
+//El rango de valores de n es de 3 hasta 15 y el rango de T esta entre 1 y 15!.
+//El rango de T sera cambiado por uno tentativo: entre 0 y 15!-1.
+
+//El primero de los algoritmos que creamos, incluye un cálculo para cada número de permutación, por lo que calcular un número incluso pequño de factorial implica perder demasiado tiempo y recursos de cómputo.
+
+int* genPerm(unsigned short n,long long int T){
+  int* S = new int[n];
+	int posE;
+	int contador=0;
+	vector<int> buffer;
+	vector<int>::iterator it=buffer.begin();
+	for(int i=0;i<n;i++){
+		buffer.push_back(i);
+	}
+	//cout<<"Vamoa depurar:"<<endl;
+	for(int i=n-1;i>1;i--){
+		it=buffer.begin();
+		posE=(int)((long long int)T/nf[i]);
+		//cout<<"posE vale "<<posE<<endl;
+		T=T%nf[i];
+		//cout<<"T vale "<<T<<endl;
+		S[contador]=buffer[posE];
+		//cout<<"S vale "<<S[contador]<<endl;
+		//cout<<"contador vale "<<contador<<endl;
+		contador++;
+		buffer.erase(it+posE);
+	}
+	if(T%2==0){
+		S[n-1]=buffer.back();
+		buffer.pop_back();
+		S[n-2]=buffer.back();
+		buffer.pop_back();
+	}else{
+		S[n-2]=buffer.back();
+		buffer.pop_back();
+		S[n-1]=buffer.back();
+		buffer.pop_back();
+	}
+  return S;
+}
+//CalcSol(s, A): Recibe una permutacion s y una matriz A. Calcula la longitud
+//mínima necesaria para encajar los n puntos en el orden de la permutacion S.
+//Devuelve el valor resultante del cálculo.
+//El rango de valores de los elementos de la permutacion s es entre 1 y 15,
+//el tamano de la s está entre 3 y 15. El tamano de A está entre 3 x 3
+//y 15 x 15 y los elementos de A están entre 1 y 1000
+int calcSol(unsigned short n,int* S,int** A){
+	int longitud=0;
+	for(int i=1;i<n;i++){
+		longitud+=A[S[i]][S[i-1]];
+	}
+	return longitud;
+}
+//Evalua(n, A): Recibe un entero n y una matriz A. Se invoca el método genPerm(n, i)
+//para asignar una permutación, luego evalúa el resultado invocando a calcSol(s, A)
+//comparándolo con el mejor hasta el momento. Si el nuevo resultado es mejor,
+//guarda el resultado y el vector. Devuelve la longitud mínima encontrada.
+
+// El rango de valores de n está entre 3 y 15. El tamano de A está entre 3 × 3
+//y 15 × 15 y los elementos de A están entre 1 y 1000.
+
+//Este método que se compagina con el de genPerm no puede adecuarse para otros métodos más eficientes, por lo que se depreca junto con genPerm.
+
+int* evalua(unsigned short n,int** A){
+	longitudMinima=5000;
+	int* S= new int[n+2];
+	int buffer;
+	for(long long int i=0;i<nf[n];i++){
+		S=genPerm(n,i);
+		int x=calcSol(n,S, A);
+		if(!esMinima(x,longitudMinima)){
+			buffer=i;
+		}
+	}
+	S=genPerm(n,buffer);
+	S[n]=longitudMinima;
+	S[n+1]=buffer;
+	return S;
+}
+//evaluaMinimal es un intento por crear una función que tarde menos y ocupe menor cantid
+int* evaluaMinimal(unsigned short n,int**A){
+	longitudMinima=5000;
+	int* S= new int[n+2];
+	for(int i=0;i<n;i++){
+		S[i]=i;
+	}
+	permute(n,n,S,A);
+	return respuesta;
+}
+//evenPermute es la rama de la solucion que utilizamos cuando el numero que tenemos es un numero par, dado que un número par nunca sera 1, esta rama siempre será no teminal, y nos llevará a un número impar luegop de hacer la suma correspondiente.
+void evenPermute(int N,int n,int*S,int**A,int suma){
+	if(N>n+1){
+		suma+=A[S[n]][S[n+1]];
+	}
+	oddPermute(N, n-1, S, A,suma);
+	for(int i=0;i<(n-1);i++){
+		swap(S[i], S[n-1]);
+		oddPermute(N, n-1, S, A,suma);
+	}
+}
+//oddPermute es la rama de la solucion que utilizamos cuando el numero que tenemos es un numero impar, en cuanto el numero sea 1, procedemos a teminar la suma.
+void oddPermute(int N,int n,int*S,int**A,int suma){
+	if(n==1){
+		suma+=A[S[n-1]][S[n]]+A[S[n]][S[n+1]];
+		if(!esMinima(suma,longitudMinima)){
+			for(int i=0;i<N;i++){
+				respuesta[i]=S[i];
+			}
+		respuesta[N]=longitudMinima;
+		respuesta[N+1]=contador;
+		}
+		contador++;
+	}else{
+		if(N>n+1){
+			suma+=A[S[n]][S[n+1]];
+		}
+		evenPermute(N,n-1,S, A,suma);
+		for(int i=0;i<(n-1);i++){
+			swap(S[0], S[n-1]);
+			evenPermute(N,n-1,S, A,suma);
+		}
+	}
+}
+//minimalPermute es un método que permite, mediante el uso del algoritmo de Heap como estructura, incrustar las operaciones de adición que necesitamos en el ŕoyecto.
+void permute(int N,int n,int * S,int ** A){
+	int suma=0;
+	contador=0;
+	longitudMinima=5000;
+	int x=calcSol(n,S, A);
+	if(n%2!=0){
+		oddPermute(N,n,S,A,suma);
+	}else{
+		evenPermute(N,n,S,A,suma);
+	}
+}
+
+
+void prueba_det(){
+	unsigned short n,d,l,switcher;
+	//cin>>n>>d>>l>>switcher;
+	d=10;l=100;switcher=2;
+	cin>>n;
+	int** A;
+	switch(switcher){
+	case 1:
+		A = genEuclideano(n,d,l);
+		imprimeMatriz(n,A);
+		break;
+	case 2:
+		A = genManhattan(n,d,l);
+		imprimeMatriz(n,A);
+		break;
+	case 3:
+		A = genGrafico(n,l);
+		imprimeMatriz(n,A);
+		break;
+	default:
+		break;
+	}
+	int* S=new int[n+2];
+	S=evaluaMinimal(n,A);
+	cout<<"La menor incrustacion en la recta es de tamano "<<S[n]<<endl;
+	cout<<"Y sigue la secuencia: "<<endl;
+	imprimeVector(n,S);
+	cout<<"permutacion numero "<<S[n+1]<<endl;
+}
+
+//Algoritmo Heuristico
+//Gloton(n, A): Recibe un entero n, y una matriz A, devuelve una permutacion
+//s de tamano n sobre la mejor solucion encontrada por el algoritmo.
+//La permutacion encontrada por el algoritmo sera evaluada en una llamada a
+//calcSol(s, A) ya explicada anteriormente.
+
+//El rango de valores de n es de 3 hasta 1000. El tamano de A esta entre
+//3 x 3 y 1000 x 1000 y los elementos de A estan entre 1 y 1000
+
+
+
+int reEvalua(int N,int i,int j,int** A,int* S,int suma){
+	if(i>0){
+		suma-=A[S[i-1]][S[i]];
+		suma+=A[S[i-1]][S[j]];
+	}
+	if(j<(N-1)){
+		suma-=A[S[j]][S[j+1]];
+		suma+=A[S[i]][S[j+1]];
+	}
+	if(j==(i+1)){
+		suma-=A[S[i]][S[i+1]];
+		suma+=A[S[j]][S[i+1]];
+	}else{
+		suma-=A[S[i]][S[i+1]];
+		suma-=A[S[j-1]][S[j]];
+		suma+=A[S[i]][S[i+1]];
+		suma+=A[S[j-1]][S[i]];
+	}
+  return suma;
+}
+/*
+void suma(int n,int** A,int* S){
+	for(int i=0;i<n;i++){
+		for(int j=0;j<n;j++){
+			A[i][n] += A[i][j];
+		}
+	}
+}*/
+int* suma(int n,int** A,int* S){
+	int* presuma=new int[n+2];
+	for(int i=0;i<n;i++){
+		presuma[i]=0;
+		for(int j=0;j<n;j++){
+			A[i][n] += A[i][j];
+			presuma[i] += A[i][j];
+		}
+	}
+	return presuma;
+}
+
+int* gloton(int n,int** A){
+	int longitudMinima;
+	int* S=new int[n+2];
+	for(int i=0;i<n;i++){
+		
+ 	}
+	return S;
+}
+
+pair<int,int> rutina1(int n,int**A){
+	int minima_i,minima_j;
+	minima_i=0;
+	//escoge minima i
+	for(int i=0;i<n;i++){
+		if(A[i][n] < A[minima_i][n]&& A[i][n]!=0){
+			minima_i=i;
+		}
+	}
+	//escogemos minima j.
+	minima_j=0;
+	for(int j=0;j<n;j++){
+		if(A[minima_i][j] < A[minima_i][minima_j] && A[minima_i][j]!=0){
+			minima_j=j;
+		}
+	}
+
+	cout<<minima_i<<" "<<minima_j<<endl;
+	pair<int,int> par;
+	par.first=minima_i;
+	par.second=minima_j;
+	return par;
+}
+pair<int,int> rutina2(int n,int**A){
+	int minima_i,minima_j;
+	minima_i=0;
+	//escoge minima i
+	for(int i=1;i<n;i++){
+		if(A[i][n] < A[minima_i][n]){
+			minima_i=i;
+		}
+	}
+	//escogemos minima j.
+	minima_j=0;
+	for(int j=0;j<n;j++){
+		if(A[minima_i][j] < A[minima_i][minima_j] && A[minima_i][j]!=0){
+			minima_j=j;
+		}
+	}
+	cout<<A[minima_i][minima_j]<<endl;
+	imprimeMatriz(n,A);
+	cout<<minima_i<<" "<<minima_j<<endl;
+	pair<int,int> par;
+	par.first=minima_i;
+	par.second=minima_j;
+	return par;
+}
+/*
+
+	for(int i=0;i<n;i++){
+		A[i][n]-=A[i][minima_j];
+		A[i][n]-=A[minima_i][i];
+	}
+*/
+void prueba_heu(){
+	unsigned short n,d,l,switcher;
+	int minima_i,minima_j;
+	//cin>>n>>d>>l>>switcher;
+	d=10;l=100;switcher=2;
+	cin>>n;
+	int** A;
+	int* S=new int[n+2];
+	int* presuma;
+	A = genEuclideano(n,d,l);
+	imprimeMatriz(n,A);
+	for(int i=0;i<n;i++){
+		S[i]=(7*i)%n;
+		//S[i]=i;
+	}
+	imprimeVector(n,S);
+	presuma=suma(n,A,S);
+	imprimeVector(n,presuma);
+	rutina1(n,A);
+	for(int k=0;k<n-2;k++){
+		rutina2(n,A);
+	}
+
+}
+
+int main(){
+	srand(time(NULL));
+	//prueba_det();//15! tarda 17 hrs.
+	prueba_heu();
+	return 0;
+}

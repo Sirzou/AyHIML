@@ -1,0 +1,926 @@
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1036
+Y sigue la secuencia: 
+7	1	6	10	0	5	2	11	9	3	4	8	
+permutacion numero 373193064
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1081
+Y sigue la secuencia: 
+8	4	7	9	3	1	6	10	0	5	2	11	
+Error: 45. Error Porcentual: 4.16281%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1134
+Y sigue la secuencia: 
+11	9	10	6	0	7	1	3	8	2	4	5	
+permutacion numero 253020082
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1199
+Y sigue la secuencia: 
+11	2	5	4	9	10	6	7	0	1	3	8	
+Error: 65. Error Porcentual: 5.42118%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 995
+Y sigue la secuencia: 
+11	3	9	6	1	8	5	7	2	4	10	0	
+permutacion numero 465213620
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1058
+Y sigue la secuencia: 
+2	4	6	11	3	9	0	10	8	1	5	7	
+Error: 63. Error Porcentual: 5.95463%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1153
+Y sigue la secuencia: 
+4	7	10	1	2	11	9	8	6	0	3	5	
+permutacion numero 255448580
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1212
+Y sigue la secuencia: 
+1	5	4	9	11	2	7	10	8	6	3	0	
+Error: 59. Error Porcentual: 4.86799%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1106
+Y sigue la secuencia: 
+2	4	11	6	1	10	0	3	7	5	9	8	
+permutacion numero 393747457
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1156
+Y sigue la secuencia: 
+3	7	2	4	11	6	10	0	5	9	8	1	
+Error: 50. Error Porcentual: 4.32526%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 968
+Y sigue la secuencia: 
+10	0	8	5	2	1	3	11	7	6	4	9	
+permutacion numero 410181963
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 995
+Y sigue la secuencia: 
+10	4	9	5	8	0	11	7	6	3	1	2	
+Error: 27. Error Porcentual: 2.71357%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1181
+Y sigue la secuencia: 
+4	1	10	3	2	7	8	6	5	11	0	9	
+permutacion numero 438635505
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1242
+Y sigue la secuencia: 
+4	1	10	3	2	9	0	7	6	5	11	8	
+Error: 61. Error Porcentual: 4.91143%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1004
+Y sigue la secuencia: 
+4	1	7	10	3	11	5	8	9	2	6	0	
+permutacion numero 444538793
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1058
+Y sigue la secuencia: 
+3	10	7	1	4	8	5	9	2	6	0	11	
+Error: 54. Error Porcentual: 5.10397%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1113
+Y sigue la secuencia: 
+3	5	2	8	10	9	6	1	0	4	11	7	
+permutacion numero 321849426
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1202
+Y sigue la secuencia: 
+11	6	9	1	0	4	7	8	2	5	3	10	
+Error: 89. Error Porcentual: 7.40433%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1058
+Y sigue la secuencia: 
+6	4	3	11	10	5	7	1	8	2	0	9	
+permutacion numero 436559816
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1162
+Y sigue la secuencia: 
+9	4	6	0	2	1	8	5	3	10	11	7	
+Error: 104. Error Porcentual: 8.95009%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1073
+Y sigue la secuencia: 
+11	5	1	9	0	4	6	8	2	10	7	3	
+permutacion numero 164492014
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1111
+Y sigue la secuencia: 
+10	11	5	1	3	7	4	6	8	2	0	9	
+Error: 38. Error Porcentual: 3.42034%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1060
+Y sigue la secuencia: 
+4	11	5	0	7	8	3	6	10	1	2	9	
+permutacion numero 420506227
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1132
+Y sigue la secuencia: 
+9	4	11	10	1	2	8	3	6	5	0	7	
+Error: 72. Error Porcentual: 6.36042%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1054
+Y sigue la secuencia: 
+4	11	2	10	5	7	0	8	6	3	1	9	
+permutacion numero 421111537
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1098
+Y sigue la secuencia: 
+3	4	11	0	8	6	7	5	10	2	1	9	
+Error: 44. Error Porcentual: 4.00729%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1051
+Y sigue la secuencia: 
+7	3	11	6	9	2	4	10	0	1	5	8	
+permutacion numero 368670268
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1108
+Y sigue la secuencia: 
+3	7	1	5	8	4	2	9	6	11	0	10	
+Error: 57. Error Porcentual: 5.1444%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1182
+Y sigue la secuencia: 
+8	2	6	10	11	5	3	1	0	7	4	9	
+permutacion numero 411673485
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1239
+Y sigue la secuencia: 
+9	6	10	4	7	5	11	8	2	3	1	0	
+Error: 57. Error Porcentual: 4.60048%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1082
+Y sigue la secuencia: 
+2	3	6	7	10	4	11	5	0	1	9	8	
+permutacion numero 392528984
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1133
+Y sigue la secuencia: 
+3	2	7	5	0	1	8	9	10	6	4	11	
+Error: 51. Error Porcentual: 4.50132%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1023
+Y sigue la secuencia: 
+2	9	8	6	1	3	10	4	11	7	5	0	
+permutacion numero 447662791
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1043
+Y sigue la secuencia: 
+0	2	9	8	6	5	7	11	4	10	3	1	
+Error: 20. Error Porcentual: 1.91755%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1154
+Y sigue la secuencia: 
+1	9	2	11	0	10	3	8	4	6	5	7	
+permutacion numero 329878253
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1192
+Y sigue la secuencia: 
+1	0	11	7	5	6	9	2	3	10	8	4	
+Error: 38. Error Porcentual: 3.18792%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1135
+Y sigue la secuencia: 
+3	6	4	10	1	8	2	11	0	9	7	5	
+permutacion numero 243848787
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1204
+Y sigue la secuencia: 
+3	1	10	6	4	5	7	9	2	8	11	0	
+Error: 69. Error Porcentual: 5.7309%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 962
+Y sigue la secuencia: 
+9	4	3	5	1	6	7	2	11	8	10	0	
+permutacion numero 467297420
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1121
+Y sigue la secuencia: 
+9	8	0	10	6	7	2	11	3	5	1	4	
+Error: 159. Error Porcentual: 14.1838%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1106
+Y sigue la secuencia: 
+2	6	11	10	0	8	9	3	7	5	1	4	
+permutacion numero 221898762
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1133
+Y sigue la secuencia: 
+1	4	11	6	2	9	3	7	5	8	0	10	
+Error: 27. Error Porcentual: 2.38305%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1115
+Y sigue la secuencia: 
+4	2	3	0	6	9	5	11	10	1	8	7	
+permutacion numero 348713937
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1136
+Y sigue la secuencia: 
+7	8	1	3	2	4	6	0	10	11	5	9	
+Error: 21. Error Porcentual: 1.84859%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1102
+Y sigue la secuencia: 
+9	11	8	5	3	4	2	1	7	6	10	0	
+permutacion numero 466254051
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1161
+Y sigue la secuencia: 
+0	8	10	6	7	1	9	11	4	2	5	3	
+Error: 59. Error Porcentual: 5.08183%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1025
+Y sigue la secuencia: 
+2	5	6	3	9	11	7	1	8	0	10	4	
+permutacion numero 227108512
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1055
+Y sigue la secuencia: 
+2	0	10	4	3	9	11	7	1	8	5	6	
+Error: 30. Error Porcentual: 2.8436%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1126
+Y sigue la secuencia: 
+1	10	8	11	5	3	9	0	6	4	2	7	
+permutacion numero 337680569
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1245
+Y sigue la secuencia: 
+0	8	11	3	9	7	2	4	6	1	10	5	
+Error: 119. Error Porcentual: 9.55823%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1043
+Y sigue la secuencia: 
+1	8	2	7	6	9	10	11	5	4	0	3	
+permutacion numero 197498637
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1099
+Y sigue la secuencia: 
+1	8	10	9	6	7	3	0	4	5	11	2	
+Error: 56. Error Porcentual: 5.09554%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1000
+Y sigue la secuencia: 
+7	11	1	2	3	6	5	4	9	10	0	8	
+permutacion numero 360009542
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1126
+Y sigue la secuencia: 
+11	10	0	8	3	2	1	7	5	6	4	9	
+Error: 126. Error Porcentual: 11.1901%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1053
+Y sigue la secuencia: 
+1	7	11	3	10	5	6	8	2	0	9	4	
+permutacion numero 234957016
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1131
+Y sigue la secuencia: 
+1	3	11	6	10	5	4	9	0	7	2	8	
+Error: 78. Error Porcentual: 6.89655%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1070
+Y sigue la secuencia: 
+6	8	2	4	1	9	0	10	3	5	11	7	
+permutacion numero 321939847
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1109
+Y sigue la secuencia: 
+2	4	3	8	6	7	11	5	10	0	9	1	
+Error: 39. Error Porcentual: 3.51668%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1116
+Y sigue la secuencia: 
+3	1	5	7	11	0	10	4	8	2	9	6	
+permutacion numero 313144409
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1126
+Y sigue la secuencia: 
+6	9	3	1	5	7	0	10	4	8	2	11	
+Error: 10. Error Porcentual: 0.888099%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1032
+Y sigue la secuencia: 
+1	3	6	2	5	9	8	10	7	11	0	4	
+permutacion numero 202866572
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1144
+Y sigue la secuencia: 
+1	4	5	2	6	3	11	0	10	7	8	9	
+Error: 112. Error Porcentual: 9.79021%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1041
+Y sigue la secuencia: 
+2	5	3	1	10	0	7	8	6	11	9	4	
+permutacion numero 235188885
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1071
+Y sigue la secuencia: 
+2	4	9	11	6	8	7	0	10	1	3	5	
+Error: 30. Error Porcentual: 2.80112%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1049
+Y sigue la secuencia: 
+10	9	7	8	6	11	0	5	3	2	1	4	
+permutacion numero 224951336
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1069
+Y sigue la secuencia: 
+10	4	1	2	3	5	0	11	6	8	7	9	
+Error: 20. Error Porcentual: 1.87091%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1001
+Y sigue la secuencia: 
+10	4	6	8	0	9	5	3	1	7	11	2	
+permutacion numero 158777903
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1044
+Y sigue la secuencia: 
+2	11	7	10	8	4	6	5	3	1	0	9	
+Error: 43. Error Porcentual: 4.11877%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 993
+Y sigue la secuencia: 
+2	8	4	11	1	0	7	10	6	3	5	9	
+permutacion numero 408993916
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1056
+Y sigue la secuencia: 
+2	1	0	9	4	11	8	10	7	6	3	5	
+Error: 63. Error Porcentual: 5.96591%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1025
+Y sigue la secuencia: 
+10	9	6	8	3	11	4	1	7	5	2	0	
+permutacion numero 457641445
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1043
+Y sigue la secuencia: 
+0	10	6	9	2	5	7	1	4	11	3	8	
+Error: 18. Error Porcentual: 1.72579%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1079
+Y sigue la secuencia: 
+3	1	10	4	11	9	2	5	8	0	7	6	
+permutacion numero 286486221
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1137
+Y sigue la secuencia: 
+0	9	3	10	1	4	11	6	7	2	5	8	
+Error: 58. Error Porcentual: 5.10114%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1100
+Y sigue la secuencia: 
+4	5	7	0	3	8	1	10	6	2	11	9	
+permutacion numero 400909559
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1154
+Y sigue la secuencia: 
+4	1	9	11	2	10	6	8	3	0	7	5	
+Error: 54. Error Porcentual: 4.67938%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1045
+Y sigue la secuencia: 
+1	3	2	11	10	9	4	6	0	5	7	8	
+permutacion numero 389807332
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1058
+Y sigue la secuencia: 
+1	3	2	11	10	8	7	5	0	6	4	9	
+Error: 13. Error Porcentual: 1.22873%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1164
+Y sigue la secuencia: 
+11	0	6	8	4	1	2	10	7	3	5	9	
+permutacion numero 409125281
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1224
+Y sigue la secuencia: 
+9	11	0	6	8	4	7	10	2	1	5	3	
+Error: 60. Error Porcentual: 4.90196%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1088
+Y sigue la secuencia: 
+9	5	8	6	1	3	2	7	11	10	4	0	
+permutacion numero 451949906
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1105
+Y sigue la secuencia: 
+9	5	2	3	1	6	8	0	4	10	11	7	
+Error: 17. Error Porcentual: 1.53846%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1068
+Y sigue la secuencia: 
+10	0	9	4	6	8	11	3	2	5	7	1	
+permutacion numero 86123462
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1162
+Y sigue la secuencia: 
+3	2	11	10	0	1	7	5	6	4	9	8	
+Error: 94. Error Porcentual: 8.0895%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1090
+Y sigue la secuencia: 
+3	0	7	8	6	1	11	2	5	4	10	9	
+permutacion numero 425467092
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1169
+Y sigue la secuencia: 
+9	3	7	0	8	6	10	4	5	2	11	1	
+Error: 79. Error Porcentual: 6.75791%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1105
+Y sigue la secuencia: 
+4	8	7	2	5	10	9	11	1	3	6	0	
+permutacion numero 444971548
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1118
+Y sigue la secuencia: 
+0	6	3	1	2	5	10	9	11	8	7	4	
+Error: 13. Error Porcentual: 1.16279%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1072
+Y sigue la secuencia: 
+2	9	0	3	6	10	8	7	1	11	4	5	
+permutacion numero 250793852
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1119
+Y sigue la secuencia: 
+2	0	9	1	5	4	11	10	6	3	7	8	
+Error: 47. Error Porcentual: 4.20018%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1027
+Y sigue la secuencia: 
+11	0	10	3	9	1	5	2	6	4	8	7	
+permutacion numero 349557861
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1056
+Y sigue la secuencia: 
+6	4	7	8	2	5	1	9	3	10	0	11	
+Error: 29. Error Porcentual: 2.74621%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 940
+Y sigue la secuencia: 
+10	3	11	5	4	1	0	7	2	9	8	6	
+permutacion numero 311566499
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 974
+Y sigue la secuencia: 
+4	6	8	9	2	7	0	1	5	11	3	10	
+Error: 34. Error Porcentual: 3.49076%.
+
+
+
+/****** Cerote ******/
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1080
+Y sigue la secuencia: 
+1	6	8	4	2	0	7	11	10	3	5	9	
+permutacion numero 409055327
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1080
+Y sigue la secuencia: 
+9	5	3	10	11	7	0	2	4	8	6	1	
+Error: 0. Error Porcentual: 0%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1048
+Y sigue la secuencia: 
+10	11	9	5	8	7	3	1	4	6	2	0	
+permutacion numero 457959586
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1120
+Y sigue la secuencia: 
+0	1	3	4	7	8	5	10	11	9	2	6	
+Error: 72. Error Porcentual: 6.42857%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1004
+Y sigue la secuencia: 
+11	1	7	5	9	0	8	3	10	6	2	4	
+permutacion numero 218354286
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1044
+Y sigue la secuencia: 
+11	1	5	9	0	4	2	6	10	3	8	7	
+Error: 40. Error Porcentual: 3.83142%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1040
+Y sigue la secuencia: 
+10	4	1	8	7	2	9	0	11	3	5	6	
+permutacion numero 289442118
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1120
+Y sigue la secuencia: 
+10	6	5	7	8	4	1	3	0	9	2	11	
+Error: 80. Error Porcentual: 7.14286%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1221
+Y sigue la secuencia: 
+1	9	6	11	2	10	7	8	4	5	3	0	
+permutacion numero 453938756
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1272
+Y sigue la secuencia: 
+0	3	6	9	1	7	8	4	5	10	2	11	
+Error: 51. Error Porcentual: 4.00943%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1051
+Y sigue la secuencia: 
+2	1	5	3	4	6	10	9	8	11	0	7	
+permutacion numero 358562382
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1059
+Y sigue la secuencia: 
+7	4	3	5	2	1	10	6	9	8	11	0	
+Error: 8. Error Porcentual: 0.75543%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1265
+Y sigue la secuencia: 
+3	0	4	5	1	11	10	6	2	8	9	7	
+permutacion numero 355447001
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1306
+Y sigue la secuencia: 
+7	9	8	6	2	3	0	4	5	1	11	10	
+Error: 41. Error Porcentual: 3.13936%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1054
+Y sigue la secuencia: 
+11	4	6	8	9	7	2	10	3	1	0	5	
+permutacion numero 276664948
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1109
+Y sigue la secuencia: 
+5	1	7	3	10	2	0	11	4	6	8	9	
+Error: 55. Error Porcentual: 4.95942%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1119
+Y sigue la secuencia: 
+2	7	10	3	1	11	9	4	0	6	5	8	
+permutacion numero 370129506
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1190
+Y sigue la secuencia: 
+8	4	0	6	5	2	7	10	3	11	1	9	
+Error: 71. Error Porcentual: 5.96639%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1050
+Y sigue la secuencia: 
+10	11	8	9	7	0	5	4	6	3	2	1	
+permutacion numero 105052374
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1065
+Y sigue la secuencia: 
+11	10	6	4	5	0	7	8	9	3	2	1	
+Error: 15. Error Porcentual: 1.40845%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1101
+Y sigue la secuencia: 
+11	0	1	8	6	7	5	3	4	2	10	9	
+permutacion numero 424786463
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1140
+Y sigue la secuencia: 
+9	10	2	1	0	11	7	6	8	4	3	5	
+Error: 39. Error Porcentual: 3.42105%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 952
+Y sigue la secuencia: 
+5	3	6	10	8	2	11	9	0	4	1	7	
+permutacion numero 341586604
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1026
+Y sigue la secuencia: 
+7	3	5	11	2	6	10	8	0	1	4	9	
+Error: 74. Error Porcentual: 7.21248%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1028
+Y sigue la secuencia: 
+1	8	11	9	2	4	7	5	10	0	3	6	
+permutacion numero 294734932
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1149
+Y sigue la secuencia: 
+10	7	4	2	1	8	9	11	6	0	3	5	
+Error: 121. Error Porcentual: 10.5309%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1070
+Y sigue la secuencia: 
+1	0	10	6	4	9	3	8	11	2	7	5	
+permutacion numero 244962956
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1202
+Y sigue la secuencia: 
+8	3	1	0	10	5	7	2	11	9	6	4	
+Error: 132. Error Porcentual: 10.9817%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1070
+Y sigue la secuencia: 
+10	7	11	2	0	5	9	3	4	6	1	8	
+permutacion numero 382336073
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1107
+Y sigue la secuencia: 
+0	2	10	4	6	8	1	11	7	3	9	5	
+Error: 37. Error Porcentual: 3.34237%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1069
+Y sigue la secuencia: 
+11	1	8	5	10	6	9	3	2	0	4	7	
+permutacion numero 331218894
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1130
+Y sigue la secuencia: 
+9	6	11	1	8	10	5	3	7	4	0	2	
+Error: 61. Error Porcentual: 5.39823%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1017
+Y sigue la secuencia: 
+1	8	10	3	9	11	4	5	0	6	2	7	
+permutacion numero 338352885
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1091
+Y sigue la secuencia: 
+11	5	4	7	2	6	0	1	3	8	9	10	
+Error: 74. Error Porcentual: 6.78277%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1058
+Y sigue la secuencia: 
+2	6	3	10	0	8	4	7	11	1	5	9	
+permutacion numero 408578100
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1122
+Y sigue la secuencia: 
+6	2	9	5	1	11	7	4	8	0	10	3	
+Error: 64. Error Porcentual: 5.7041%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1096
+Y sigue la secuencia: 
+5	8	1	6	10	2	7	11	4	3	9	0	
+permutacion numero 440976185
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1167
+Y sigue la secuencia: 
+0	5	11	4	9	3	2	10	6	8	1	7	
+Error: 71. Error Porcentual: 6.08398%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1081
+Y sigue la secuencia: 
+11	1	6	7	0	9	2	3	4	10	8	5	
+permutacion numero 271951958
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1107
+Y sigue la secuencia: 
+3	8	5	4	10	11	1	6	7	0	9	2	
+Error: 26. Error Porcentual: 2.34869%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1115
+Y sigue la secuencia: 
+1	11	0	8	5	4	7	2	10	3	6	9	
+permutacion numero 405098906
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1149
+Y sigue la secuencia: 
+1	11	9	4	7	2	10	3	6	0	8	5	
+Error: 34. Error Porcentual: 2.95909%.
+
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1080
+Y sigue la secuencia: 
+11	3	6	2	7	9	1	8	0	5	4	10	
+permutacion numero 57867555
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1169
+Y sigue la secuencia: 
+10	3	11	2	7	9	1	8	0	4	5	6	
+Error: 89. Error Porcentual: 7.61334%.
+
+^[[A
+Deterministicamente:
+La menor incrustacion en la recta es de longitud 1061
+Y sigue la secuencia: 
+2	11	5	0	6	10	4	3	1	7	8	9	
+permutacion numero 435295200
+Heurísticamente: 
+La menor incrustacion en la recta es de longitud 1067
+Y sigue la secuencia: 
+2	11	5	3	4	10	6	0	9	8	7	1	
+Error: 6. Error Porcentual: 0.562324%.
+
+
+
+
+
+
+4.16281
+5.42118
+5.95463
+4.86799
+4.32526
+2.71357
+4.91143
+5.10397
+7.40433
+8.95009
+3.42034
+6.36042
+4.00729
+5.1444
+4.60048
+4.50132
+1.91755
+3.18792
+5.7309
+14.1838
+2.38305
+1.84859
+5.08183
+2.8436
+9.55823
+5.09554
+11.1901
+6.89655
+3.51668
+0.888099
+9.79021
+2.80112
+1.87091
+4.11877
+5.96591
+1.72579
+5.10114
+4.67938
+1.22873
+4.90196
+1.53846
+8.0895
+6.75791
+1.16279
+4.20018
+2.74621
+3.49076
+0
+6.42857
+3.83142
+7.14286
+4.00943
+0.75543
+3.13936
+4.95942
+5.96639
+1.40845
+3.42105
+7.21248
+10.5309
+10.9817
+3.34237
+5.39823
+6.78277
+5.7041
+6.08398
+2.34869
+2.95909
+7.61334
+0.562324
+
+4.81320047142857
+
+
+0.650390471428572
+0.607979528571428
+1.14142952857143
+0.054789528571428
+0.487940471428572
+2.09963047142857
+0.098229528571428
+0.290769528571428
+2.59112952857143
+4.13688952857143
+1.39286047142857
+1.54721952857143
+0.805910471428572
+0.331199528571428
+0.212720471428572
+0.311880471428572
+2.89565047142857
+1.62528047142857
+0.917699528571428
+9.37059952857143
+2.43015047142857
+2.96461047142857
+0.268629528571428
+1.96960047142857
+4.74502952857143
+0.282339528571428
+6.37689952857143
+2.08334952857143
+1.29652047142857
+3.92510147142857
+4.97700952857143
+2.01208047142857
+2.94229047142857
+0.694430471428572
+1.15270952857143
+3.08741047142857
+0.287939528571428
+0.133820471428572
+3.58447047142857
+0.088759528571428
+3.27474047142857
+3.27629952857143
+1.94470952857143
+3.65041047142857
+0.613020471428572
+2.06699047142857
+1.32244047142857
+4.81320047142857
+1.61536952857143
+0.981780471428572
+2.32965952857143
+0.803770471428572
+4.05777047142857
+1.67384047142857
+0.146219528571428
+1.15318952857143
+3.40475047142857
+1.39215047142857
+2.39927952857143
+5.71769952857143
+6.16849952857143
+1.47083047142857
+0.585029528571428
+1.96956952857143
+0.890899528571429
+1.27077952857143
+2.46451047142857
+1.85411047142857
+2.80013952857143
+4.25087647142857
+
+2.1033698277551
